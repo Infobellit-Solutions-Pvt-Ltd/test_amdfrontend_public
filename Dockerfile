@@ -7,7 +7,7 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy the build folder to the nginx default html location
 COPY ./build /usr/share/nginx/html
  
-# Expose port 80
+# Expose port 80 
 EXPOSE 80
  
 # Start nginx
